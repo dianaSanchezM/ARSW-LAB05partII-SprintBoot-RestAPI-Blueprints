@@ -1,0 +1,6 @@
+-Qué condiciones de carrera se podrían presentar?
+Se puede presentar el caso en el que en el proceso de consulta se esten agregando, actualizando o eliminando planos simultaneamente, por lo que, los planos consultados puede no ser informacion confiable.
+-Cuales son las respectivas regiones críticas?
+Especificamente es el recurso blueprints de la clase InMemoryBlueprintPersistence de tipo Map<Tuple<String,String>,Blueprint>.
+-Analisis y solucion:
+

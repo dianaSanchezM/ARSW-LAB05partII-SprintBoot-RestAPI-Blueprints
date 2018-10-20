@@ -93,5 +93,6 @@ public class BlueprintAPIController {
         }
     }
     //curl -i -X PUT -HContent-Type:application/json -HAccept:application/json http://localhost:8080/blueprints -d '{"author":"Artur","points":[{"x":44,"y":33},{"x":22,"y":11}],"name":"la pinta"}'
+
 }
 

@@ -3,4 +3,5 @@ Se puede presentar el caso en el que en el proceso de consulta se esten agregand
 -Cuales son las respectivas regiones críticas?
 Especificamente es el recurso blueprints de la clase InMemoryBlueprintPersistence de tipo Map<Tuple<String,String>,Blueprint>.
 -Analisis y solucion:
-
+Hacer de la clase InMemoryBlueprintPersistence Thread-safe utilizando una coleccion concurrente para el recurso critica
+Modificar el metodo addBlueprint para que agregue el plano de forma atomica.
